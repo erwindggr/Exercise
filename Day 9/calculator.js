@@ -36,7 +36,7 @@ class Calculator {
     }
 
     clearHistory(){
-    // this.#history.splice(0,this.#history.length);
+        this.#history.splice(0,this.#history.length);
         this.#history = [];
     }
     
